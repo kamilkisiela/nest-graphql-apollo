@@ -1,0 +1,32 @@
+{
+  "name": "nest-graphql-apollo",
+  "version": "1.0.0",
+  "description": "Nest GraphQL starter repository",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon",
+    "prestart:prod": "tsc",
+    "start:prod": "node dist/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "^4.5.0",
+    "@nestjs/core": "^4.5.0",
+    "@nestjs/graphql": "^2.0.0",
+    "@nestjs/microservices": "^4.5.0",
+    "@nestjs/testing": "^4.5.0",
+    "@nestjs/websockets": "^4.5.0",
+    "apollo-server-express": "^1.3.2",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.18.0",
+    "redis": "^2.7.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.0",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "nodemon": "^1.12.1",
+    "ts-node": "^3.3.0"
+  }
+}
